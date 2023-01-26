@@ -41,7 +41,7 @@ function Home() {
 }
 
 function NFTImage({ tokenId, getCount }) {
-  const contentId = "QmSDZ6mXUwLd2EfcyVg8PkwPsK89KAoTvD3Ei1Z6XuwGJh";
+  const contentId = "QmXeCdMmyXigBDtGjrHG1ni8pPyqAW1mNLfDweATTXmpnV";
   const metadataURI = `${contentId}/${tokenId}.json`;
   const imageURI = `https://gateway.pinata.cloud/ipfs/${contentId}/${tokenId}.png`;
 
